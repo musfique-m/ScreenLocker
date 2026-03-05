@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Locker</string>
+    <string name="widget_description">Tap to lock screen instantly (with biometric unlock)</string>
+    <string name="accessibility_service_description">Allows the Screen Locker widget to lock your screen. This service does NOT read or collect any data from your screen.</string>
+    <string name="service_not_enabled">Please enable the Screen Locker accessibility service.\n\nGo to Settings → Accessibility → Screen Locker → Enable</string>
+    <string name="btn_enable_admin">Open Accessibility Settings</string>
+    <string name="status_service_active">✓ Service is active! Add the widget to your home screen.\n\nTapping the widget will lock the screen and fingerprint / face unlock will work immediately.</string>
+</resources>
