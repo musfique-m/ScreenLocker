@@ -74,3 +74,22 @@ gradle/wrapper/gradle-wrapper.jar
 
 # Windows
 Thumbs.db
+
+# ADLC — per-developer ephemeral state; durable knowledge and the union-merged
+# append-only logs (hot.md, decisions.md, glossary.md) stay committed.
+.adlc/now.md
+.adlc/specs/*/pipeline-state.json
+.adlc/specs/*/.awaiting-approval
+.adlc/specs/*/commits-draft.md
+.adlc/specs/*/pr-draft.md
+.adlc/specs/*/merge-checklist.md
+.adlc/specs/*/source-writeback.md
+.adlc/specs/*/last-seen.json
+.adlc/bugs/*/pipeline-state.json
+.adlc/bugs/*/.awaiting-approval
+.adlc/bugs/*/commits-draft.md
+.adlc/bugs/*/pr-draft.md
+.adlc/bugs/*/merge-checklist.md
+.adlc/bugs/*/source-writeback.md
+.adlc/bugs/*/last-seen.json
+.adlc/sprints/*.json
